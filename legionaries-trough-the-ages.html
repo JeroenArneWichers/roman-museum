@@ -17,7 +17,7 @@
     <!-- animate on scroll -->	
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Roman Museum</title>
+    <title>legionaries trough the ages</title>
   </head>
   <body>
   
@@ -27,7 +27,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-4">
                         <img class="w-100" src="./img/legionary-1-late-republic.jpg">
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-8">
                         <div class="card-block">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-4">
                         <img class="w-100" src="./img/legionary-3-early-1st-century.jpg">
@@ -120,7 +120,7 @@
                 </div>
             </div>
             
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-8">
                         <div class="card-block">
@@ -161,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-4">
                         <img class="w-100" src="./img/legionary-5-mid-2nd-century.jpg">
@@ -183,7 +183,7 @@
                 </div>
             </div>
 
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-8">
                         <div class="card-block">
@@ -198,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="card col-md-12 p-3 spacer200top">
+            <div class="card col-md-12 p-3 spacer200top" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row ">
                     <div class="col-md-4">
                         <img class="w-100" src="./img/legionary-7-mid-3rd-to-5th-century.jpg">
@@ -330,6 +330,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	
+    <!-- animate on scroll script --> 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			$(document).ready(function() {
 					$(document).delegate('.open', 'click', function(event){
@@ -372,6 +374,10 @@
                 });
             });
         </script>
-	
+
+        <script>
+            AOS.init();
+        </script>
+
 	</body>
 </html>
